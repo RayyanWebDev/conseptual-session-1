@@ -65,4 +65,12 @@
 }
 
 /* Main*/
-
+.author-name-position{
+    display: flex;
+}
+.author{
+    display: flex;
+}
+.service-container{
+    display: flex; 
+}
