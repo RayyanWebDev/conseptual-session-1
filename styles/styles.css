@@ -5,13 +5,17 @@
 
 /* Header Part */
 
+.nav{width: 101.34%;
+    
+}
 .nav-container{
     background-color: rgb(213, 210, 210);
-    display: flex;
+    display:flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    margin: auto;
+    
+    position: relative;
 }
 .logo{
     display: flex;
@@ -41,7 +45,7 @@
     
 }
 .description{
-    position: relative;
+    position: relative;    
 }
 .banner{
     position:absolute;
