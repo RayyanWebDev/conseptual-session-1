@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-/* Header Part */
+/* Header */
 
 .nav{width: 101.34%;
     
@@ -40,20 +40,29 @@
     font-size: 19px;
 }
 
-/* Main Part */
-.banner-container{
+/* Banner Part */
+
+.banner-container{ height: 100vh;
     
 }
 .description{
     position: relative;    
 }
 .banner{
+    
     position:absolute;
-    background-image:(rgb(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    background-image:linear-gradient(rgb(0, 0, 0, 0), rgba(0, 0, 0, 1));
     background-blend-mode: overlay;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-image{
+    height: 100vh;
 }
 .primary{
     color:rgb(245, 44, 44);
 }
+
+/* Main*/
+
